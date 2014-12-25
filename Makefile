@@ -1,7 +1,7 @@
 CC	= g++
 CFLAGS	= -c -Wall -pedantic
 LDFLAGS	= -lncurses
-SOURCES	= lissacurses.cpp
+SOURCES	= lissacurses.cc
 OBJECTS	= lissacurses.o
 BIN	= lissacurses
 
@@ -14,6 +14,6 @@ clean:
 	rm $(BIN)
 	rm -f *.o *.core
 
-.cpp.o:
+.cc.o:
 	$(CC) $(CFLAGS) $< -o $@
 
