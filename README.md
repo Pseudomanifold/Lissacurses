@@ -5,7 +5,7 @@ working installation of the `ncurses` library.
 
 ## Building
 
-    $ git clone http://git.annwfn.net/Lissacurses.git
+    $ git clone https://github.com/Submanifold/Lissacurses
     $ cd Lissacurses
     $ mkdir build
     $ cd build
